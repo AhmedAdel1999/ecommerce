@@ -1,0 +1,76 @@
+.prod-details{
+    padding-top: 120px;
+}
+.prod-details .prod-name{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(47, 41, 133);
+    margin-bottom: 80px;
+}
+.prod-details .prod-img{
+    position: relative;
+}
+.prod-details .prod-img img{
+    width: 100%;
+    height: 100%;
+}
+.prod-details .prod-info p{
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.prod-details .prod-info p:nth-of-type(1){
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+.prod-details .prod-info p:nth-of-type(2){
+    font-size: 17px;
+    font-weight: bold;
+    font-family: cursive;
+    color: rgb(143, 140, 140);
+}
+.prod-details .prod-info p:nth-of-type(3){
+    font-size: 16px;
+    font-weight: bold;
+    font-family: cursive;
+    color: rgb(47, 41, 133);
+}
+.prod-details .prod-about h6{
+font-weight: bold;
+text-transform: capitalize;
+}
+.prod-details .prod-about p{
+    font-weight: bold;
+    color: rgb(143, 140, 140);
+}
+.prod-details .prod-controls{
+    display: flex;
+    flex-wrap: wrap;
+}
+.prod-details .prod-controls button:first-child{
+    font-size: 18px;
+    outline: none;
+    border: 1px solid rgb(66, 30, 150);
+    background-color: #fff;
+    color: rgb(66, 30, 150);
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.prod-details .prod-controls button:first-child a{
+    text-decoration: none;
+}
+.prod-details .prod-controls button:last-child{
+    font-size: 18px;
+    outline: none;
+    border: 1px solid rgb(241, 138, 54);
+    background-color: #fff;
+    color: rgb(241, 138, 54);
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    text-transform: capitalize;
+}

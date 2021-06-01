@@ -1,0 +1,24 @@
+.nav-section{
+    background-color: rgb(49, 49, 153);
+    color: #fff;
+    position: sticky;
+    top: 0px;
+    z-index: 4;
+}
+.nav-section .navbar .nav-link{
+    color: #fff !important;
+}
+.nav-section .navbar .nav-link:last-child span{
+    color: #fff;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    background-color: #000;
+    transform: translateY(-5px);
+}
+.nav-section .navbar .navbar-brand{
+    color: #fff !important;
+}
